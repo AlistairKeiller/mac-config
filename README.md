@@ -20,3 +20,7 @@ fish_add_path /opt/homebrew/bin
 git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
 ```
+# Install Pluto
+```bash
+julia -e 'using Pkg;Pkg.add("Pluto")'
+```
