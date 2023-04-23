@@ -7,7 +7,7 @@
 /opt/homebrew/bin/brew install discord julia rust rust-analyzer gitui fish helix
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 ```
-# Change To Fish
+# Change Defalt Shell To Fish
 ```bash
 chsh -c /opt/homebrew/bin/fish
 ```
