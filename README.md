@@ -8,10 +8,10 @@
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 ```
 # Change To Fish
-```
+```bash
 chsh -c /opt/homebrew/bin/fish
 ```
 # Add Homebrew To Fish Path
-```
+```bash
 fish_add_path /opt/homebrew/bin
 ```
