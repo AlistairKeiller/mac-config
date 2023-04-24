@@ -37,4 +37,12 @@ theme = "onedark"
 [editor]
 auto-save = true
 idle-timeout = 0
+line-number = "relative"
+completion-replace = true
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.file-picker]
+hidden = false
 ```
