@@ -4,7 +4,7 @@
 ```
 # Install Programs
 ```bash
-/opt/homebrew/bin/brew install discord julia rust rust-analyzer gitui fish helix zellij
+/opt/homebrew/bin/brew install discord julia rust rust-analyzer gitui fish helix
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 ```
 # Change Defalt Shell To Fish
@@ -24,3 +24,17 @@ git config --global user.email alistair@keiller.net
 ```bash
 julia -e 'using Pkg;Pkg.add("Pluto")'
 ```
+# Configure Alacritty
+in ~/.config/alacritty/alacritty.yml
+```yml
+font:
+  size: 15.0
+```
+# Configure Helix
+```toml
+theme = "onedark"
+
+[editor]
+auto-save = true
+idle-timeout = 0
+`
