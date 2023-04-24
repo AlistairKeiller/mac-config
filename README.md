@@ -37,4 +37,4 @@ theme = "onedark"
 [editor]
 auto-save = true
 idle-timeout = 0
-`
+```
