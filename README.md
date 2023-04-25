@@ -19,6 +19,7 @@ fish_add_path /opt/homebrew/bin
 ```bash
 git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
+git config --global credential.helper osxkeychain
 ```
 # Install Pluto
 ```bash
@@ -29,6 +30,8 @@ in ~/.config/alacritty/alacritty.yml
 ```yml
 font:
   size: 15.0
+window:
+  option_as_alt: Both
 ```
 # Configure Helix
 ```toml
