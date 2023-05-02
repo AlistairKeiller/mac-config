@@ -54,7 +54,7 @@ hidden = false
 rustup-init -y --profile complete
 fish_add_path ~/.cargo/bin/
 ```
-# Install wgsl_analyzer
+# Install wgsl analyzer
 ```fish
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
 ```
