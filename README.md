@@ -4,7 +4,7 @@
 ```
 # Install Programs
 ```bash
-/opt/homebrew/bin/brew install discord julia rust rust-analyzer gitui fish helix zoom
+/opt/homebrew/bin/brew install discord julia rust rust-analyzer rustfmt gitui fish helix zoom
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 ```
 # Change Defalt Shell To Fish
