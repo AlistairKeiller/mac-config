@@ -1,28 +1,28 @@
 # Install Homebrew
-```bash
+```fish
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 # Install Programs
-```bash
+```fish
 /opt/homebrew/bin/brew install discord julia rustup-init gitui fish helix zoom
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 ```
 # Change Defalt Shell To Fish
-```bash
+```fish
 chsh -c /opt/homebrew/bin/fish
 ```
 # Add Homebrew To Fish Path
-```bash
+```fish
 fish_add_path /opt/homebrew/bin
 ```
 # Configure Git
-```bash
+```fish
 git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
 git config --global credential.helper osxkeychain
 ```
 # Install Pluto
-```bash
+```fish
 julia -e 'using Pkg;Pkg.add("Pluto")'
 ```
 # Configure Alacritty
@@ -50,7 +50,11 @@ display-inlay-hints = true
 hidden = false
 ```
 # Configure Rust
-```
+```fish
 rustup-init -y --profile complete
 fish_add_path ~/.cargo/bin/
+```
+# Install wgsl_analyzer
+```fish
+cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
 ```
