@@ -52,4 +52,5 @@ hidden = false
 # Configure Rust
 ```
 rustup-init -y --profile complete
+fish_add_path ~/.cargo/bin/
 ```
