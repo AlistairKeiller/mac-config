@@ -58,4 +58,5 @@ fish_add_path ~/.cargo/bin/
 ```fish
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
 ```
-# add alistair directory to favorites in finder
+# Add alistair directory to favorites in finder
+# Install Numbers
