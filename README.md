@@ -8,15 +8,15 @@
 chsh -c /opt/homebrew/bin/fish
 # Add Homebrew And Rust To Fish Path
 fish_add_path /opt/homebrew/bin ~/.cargo/bin/
-# Configure Rust
+# Install Rust
 rustup-init -y --profile complete
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
+# Install Pluto
+julia -e 'using Pkg;Pkg.add("Pluto")'
 # Configure Git
 git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
 git config --global credential.helper osxkeychain
-# Install Pluto
-julia -e 'using Pkg;Pkg.add("Pluto")'
 # Configure Alacritty
 echo "font:
   size: 15.0
