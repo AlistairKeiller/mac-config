@@ -4,7 +4,7 @@
 ```
 # Install Programs
 ```fish
-/opt/homebrew/bin/brew install discord julia rustup-init gitui fish helix zoom
+/opt/homebrew/bin/brew install julia rustup-init gitui fish helix orion
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 ```
 # Change Defalt Shell To Fish
