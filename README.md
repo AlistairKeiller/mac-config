@@ -2,7 +2,7 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Install Programs
-/opt/homebrew/bin/brew install julia rustup-init python gitui fish helix arc
+/opt/homebrew/bin/brew install julia rustup-init python pango gitui fish helix arc
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 # Change Defalt Shell To Fish
 chsh -c /opt/homebrew/bin/fish
@@ -12,7 +12,7 @@ fish_add_path /opt/homebrew/bin ~/.cargo/bin/
 rustup-init -y --profile complete
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
 # Install ruff-lsp
-pip3 install ruff-lsp
+pip3 install ruff-lsp manim manim-slides
 # Install Pluto
 julia -e 'using Pkg;Pkg.add("Pluto")'
 # Configure Git
