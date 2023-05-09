@@ -2,7 +2,7 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Install Programs
-/opt/homebrew/bin/brew install julia rustup-init gitui fish helix arc
+/opt/homebrew/bin/brew install julia rustup-init python gitui fish helix arc
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 # Change Defalt Shell To Fish
 chsh -c /opt/homebrew/bin/fish
@@ -38,4 +38,10 @@ display-inlay-hints = true
 hidden = false' > ~/.config/helix/config.toml
 # Add alistair directory to favorites in finder
 # Install Numbers
+
+[[language]]
+name = "python"
+scope = "source.python"
+language-server = { command = "ruff-lsp" }
+config = { settings = { args = [] } }
 ```
