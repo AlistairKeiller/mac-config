@@ -20,10 +20,10 @@ git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
 git config --global credential.helper osxkeychain
 # Configure Alacritty
-echo "font:
+echo 'font:
   size: 15.0
 window:
-  option_as_alt: Both" > ~/.config/alacritty/alacritty.yml
+  option_as_alt: Both'> ~/.config/alacritty/alacritty.yml
 # Configure Helix
 echo 'theme = "onedark"
 
@@ -38,11 +38,11 @@ display-inlay-hints = true
 
 [editor.file-picker]
 hidden = false' > ~/.config/helix/config.toml
-echo "[[language]]
+echo '[[language]]
 name = "python"
 scope = "source.python"
 language-server = { command = "ruff-lsp" }
-config = { settings = { args = [] } }" > ~/.config/helix/languages.yml
+config = { settings = { args = [] } }' > ~/.config/helix/languages.yml
 # Add alistair directory to favorites in finder
 # Install Numbers
 ```
