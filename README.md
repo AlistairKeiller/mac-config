@@ -2,7 +2,7 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Install Programs
-/opt/homebrew/bin/brew install julia rustup-init python pango ffmpeg python-lsp-server gitui fish helix arc
+/opt/homebrew/bin/brew install julia rustup-init python pango ffmpeg python-lsp-server basictex gitui fish helix arc
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 # Change Defalt Shell To Fish
 chsh -c /opt/homebrew/bin/fish
