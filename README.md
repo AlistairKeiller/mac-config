@@ -2,7 +2,7 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Install Programs
-/opt/homebrew/bin/brew install julia rustup-init python pango ffmpeg gitui fish helix arc
+/opt/homebrew/bin/brew install julia rustup-init python pango ffmpeg python-lsp-server gitui fish helix arc
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 # Change Defalt Shell To Fish
 chsh -c /opt/homebrew/bin/fish
@@ -11,8 +11,6 @@ fish_add_path /opt/homebrew/bin ~/.cargo/bin/
 # Install Rust
 rustup-init -y --profile complete
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
-# Install ruff-lsp
-pip3 install ruff-lsp manim manim-slides
 # Install Pluto
 julia -e 'using Pkg;Pkg.add("Pluto")'
 # Configure Git
@@ -38,11 +36,6 @@ display-inlay-hints = true
 
 [editor.file-picker]
 hidden = false' > ~/.config/helix/config.toml
-echo '[[language]]
-name = "python"
-scope = "source.python"
-language-server = { command = "ruff-lsp" }
-config = { settings = { args = [] } }' > ~/.config/helix/languages.yml
 # Add alistair directory to favorites in finder
 # Install Numbers
 ```
