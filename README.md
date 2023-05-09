@@ -38,12 +38,11 @@ display-inlay-hints = true
 
 [editor.file-picker]
 hidden = false' > ~/.config/helix/config.toml
-# Add alistair directory to favorites in finder
-# Install Numbers
-
-[[language]]
+echo "[[language]]
 name = "python"
 scope = "source.python"
 language-server = { command = "ruff-lsp" }
-config = { settings = { args = [] } }
+config = { settings = { args = [] } }" > ~/.config/helix/languages.yml
+# Add alistair directory to favorites in finder
+# Install Numbers
 ```
