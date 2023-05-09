@@ -11,6 +11,8 @@ fish_add_path /opt/homebrew/bin ~/.cargo/bin/
 # Install Rust
 rustup-init -y --profile complete
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
+# Install ruff-lsp
+pip3 install ruff-lsp
 # Install Pluto
 julia -e 'using Pkg;Pkg.add("Pluto")'
 # Configure Git
