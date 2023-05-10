@@ -2,12 +2,12 @@
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 # Install Programs
-/opt/homebrew/bin/brew install julia rustup-init python pango ffmpeg python-lsp-server texlive macsvg gitui fish helix arc
+/opt/homebrew/bin/brew install julia rustup-init python pango ffmpeg python-lsp-server texlive gitui fish helix arc
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 # Change Defalt Shell To Fish
 chsh -c /opt/homebrew/bin/fish
 # Add Homebrew And Rust To Fish Path
-fish_add_path /opt/homebrew/bin ~/.cargo/bin/
+fish_add_path /opt/homebrew/bin ~/.cargo/bin/ /usr/local/texlive/2023/bin/universal-darwin
 # Install Rust
 rustup-init -y --profile complete
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
