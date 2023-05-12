@@ -7,7 +7,7 @@
 # Change Defalt Shell To Fish
 chsh -c /opt/homebrew/bin/fish
 # Add Homebrew And Rust To Fish Path
-fish_add_path /opt/homebrew/bin ~/.cargo/bin/ /usr/local/texlive/2023/bin/universal-darwin
+fish_add_path /opt/homebrew/bin ~/.cargo/bin/ /usr/local/texlive/2023/bin/universal-darwin $(brew --prefix python)/libexec/bin
 # Install Rust
 rustup-init -y --profile complete
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
