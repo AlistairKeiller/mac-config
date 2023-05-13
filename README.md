@@ -37,5 +37,5 @@ display-inlay-hints = true
 [editor.file-picker]
 hidden = false' > ~/.config/helix/config.toml
 # Add alistair directory to favorites in finder
-# Install Numbers and Office 365
+# Install Numbers, Office 365, and grammarly
 ```
