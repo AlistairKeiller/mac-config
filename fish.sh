@@ -33,4 +33,3 @@ display-inlay-hints = true
 hidden = false' > ~/.config/helix/config.toml
 # Add alistair directory to favorites in finder
 # Install Office 365 and grammarly from app store
-# Install Ti student software from their website
