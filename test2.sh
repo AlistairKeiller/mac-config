@@ -1,5 +1,5 @@
 # Add Homebrew And Rust To Fish Path
-fish_add_path /opt/homebrew/bin ~/.cargo/bin/ /usr/local/texlive/2023/bin/universal-darwin $(brew --prefix python)/libexec/bin
+fish_add_path /opt/homebrew/bin ~/.cargo/bin/
 # Install Rust
 rustup-init -y --profile complete
 cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
