@@ -1,3 +1,4 @@
+set -e
 # Add Homebrew And Rust To Fish Path
 fish_add_path /opt/homebrew/bin ~/.cargo/bin/
 # Install Rust
