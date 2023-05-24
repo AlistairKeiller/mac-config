@@ -9,4 +9,4 @@ set -e
 echo /opt/homebrew/bin/fish | sudo tee -a /etc/shells
 chsh -s /opt/homebrew/bin/fish
 # Run The Rest in Fish Shell
-/opt/homebrew/bin/fish test2.sh
+/opt/homebrew/bin/fish fish.sh
