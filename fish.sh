@@ -31,5 +31,5 @@ display-inlay-hints = true
 
 [editor.file-picker]
 hidden = false' > ~/.config/helix/config.toml
-# Add alistair directory to favorites in finder
-# Install Office 365 and grammarly from app store
+# Add ~ directory to favorites in finder
+# Install Excel and grammarly from app store
