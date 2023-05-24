@@ -5,7 +5,7 @@ set -e
 /opt/homebrew/bin/brew install julia rustup-init python pango ffmpeg python-lsp-server texlive gitui fish helix discord skype
 /opt/homebrew/bin/brew install alacritty --no-quarantine
 # Change Defalt Shell To Fish
-chsh -c /opt/homebrew/bin/fish
+chsh -s /opt/homebrew/bin/fish
 # Add Homebrew And Rust To Fish Path
 fish_add_path /opt/homebrew/bin ~/.cargo/bin/ /usr/local/texlive/2023/bin/universal-darwin $(brew --prefix python)/libexec/bin
 # Install Rust
