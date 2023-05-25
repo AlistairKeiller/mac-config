@@ -32,4 +32,4 @@ display-inlay-hints = true
 [editor.file-picker]
 hidden = false' > ~/.config/helix/config.toml
 # Add ~ directory to favorites in finder
-# Install Excel and grammarly from app store
+# Install Excel, grammarly, and AdGuard from app store
