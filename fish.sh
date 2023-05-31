@@ -3,9 +3,6 @@ set -e
 fish_add_path /opt/homebrew/bin ~/.cargo/bin/
 # Install Rust
 rustup-init -y --profile complete
-cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer
-# Install Pluto
-julia -e 'using Pkg;Pkg.add("Pluto")'
 # Configure Git
 git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
