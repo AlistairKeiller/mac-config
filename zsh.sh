@@ -4,7 +4,7 @@ set -e
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install Programs
-/opt/homebrew/bin/brew install rustup-init gitui nushell helix python python-lsp-server git
+/opt/homebrew/bin/brew install rustup-init gitui nushell helix python python-lsp-server
 /opt/homebrew/bin/brew install --cask julia discord skype
 /opt/homebrew/bin/brew install --cask alacritty --no-quarantine
 
@@ -43,3 +43,5 @@ display-inlay-hints = true
 [editor.file-picker]
 hidden = false' > ~/.config/helix/config.toml
 
+# Configure Nu
+echo 'let-env PATH = "/bin:/usr/bin:/opt/homebrew/bin"' >> "/Users/alistairkeiller/Library/Application Support/nushell/config.nu"
