@@ -44,4 +44,4 @@ hidden = false' > ~/.config/helix/config.toml
 
 # Configure Nu
 /opt/homebrew/nu -c "config reset"
-echo 'let-env PATH = "/bin:/usr/bin:/opt/homebrew/bin"' >> "/Users/alistairkeiller/Library/Application Support/nushell/config.nu"
+echo 'let-env PATH = "/bin:/usr/bin:/opt/homebrew/bin:~/.cargo/bin"' >> "/Users/alistairkeiller/Library/Application Support/nushell/config.nu"
