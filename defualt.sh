@@ -4,7 +4,7 @@ set -e
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install Programs
-/opt/homebrew/bin/brew install rustup-init python r typst
+/opt/homebrew/bin/brew install rustup-init python r
 /opt/homebrew/bin/brew install --cask julia discord skype quarto
 
 # Install Rust
