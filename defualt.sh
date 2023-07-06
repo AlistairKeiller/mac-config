@@ -14,3 +14,7 @@ brew install --cask julia discord skype visual-studio-code quarto
 
 # Install Rust
 rustup-init -y --profile complete
+
+# Configure Git
+git config --global user.name "Alistair Keiller"
+git config --global user.email alistair@keiller.net
