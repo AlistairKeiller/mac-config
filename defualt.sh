@@ -9,7 +9,7 @@ sudo softwareupdate --install-rosetta
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
-brew install rustup-init miniconda
+brew install rustup-init python
 brew install --cask julia discord skype visual-studio-code quarto
 
 # Install Rust
