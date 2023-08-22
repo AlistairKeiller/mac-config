@@ -10,7 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew install rustup-init python
-brew install --cask julia discord skype visual-studio-code quarto adobe-connect
+brew install --cask julia discord skype visual-studio-code quarto
 
 # Install Rust
 rustup-init -y --profile complete
