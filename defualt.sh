@@ -9,8 +9,8 @@ sudo softwareupdate --install-rosetta
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
-brew install rustup-init python wasm-pack
-brew install --cask julia discord skype visual-studio-code quarto
+brew install rustup-init python helix jupyterlab
+brew install --cask julia discord skype quarto
 
 # Install Rust
 rustup-init -y --profile complete
