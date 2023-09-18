@@ -9,7 +9,7 @@ sudo softwareupdate --install-rosetta
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
-brew install rustup-init python helix jupyterlab
+brew install rustup-init python helix gitui jupyterlab
 brew install --cask julia discord quarto alacritty
 brew install --cask --no-quarantine alacritty
 
@@ -19,3 +19,26 @@ rustup-init -y --profile complete
 # Configure Git
 git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
+
+# Configure Alacritty
+mkdir -p ~/.config/alacritty/
+echo 'font:
+ size: 15.0
+window:
+ option_as_alt: Both'> ~/.config/alacritty/alacritty.yml
+
+ # Configure Helix
+ mkdir -p ~/.config/helix/
+ echo 'theme = "onedark"
+ 
+ [editor]
+ auto-save = true
+ idle-timeout = 0
+ line-number = "relative"
+ completion-replace = true
+ 
+ [editor.lsp]
+ display-inlay-hints = true
+ 
+ [editor.file-picker]
+ hidden = false' > ~/.config/helix/config.toml
