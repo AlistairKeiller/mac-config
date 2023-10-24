@@ -10,7 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew install rustup-init python helix gitui jupyterlab
-brew install --cask julia discord quarto warp chromium binaryen minecraft
+brew install --cask julia discord quarto warp chromium binaryen minecraft libreoffice
 
 # Install Rust
 rustup-init -y --profile complete
