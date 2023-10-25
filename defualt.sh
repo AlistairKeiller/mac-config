@@ -9,7 +9,7 @@ sudo softwareupdate --install-rosetta
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
-brew install rustup-init python helix gitui jupyterlab
+brew install rustup-init python helix gitui jupyterlab java
 brew install --cask julia discord quarto warp chromium minecraft libreoffice
 
 # Install Rust
