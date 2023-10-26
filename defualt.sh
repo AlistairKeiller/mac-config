@@ -10,7 +10,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew install rustup-init python helix gitui jupyterlab java
-brew install --cask julia discord quarto warp chromium prismlauncher libreoffice
+brew install --cask julia discord quarto warp chromium libreoffice prismlauncher
+
+# Simply Optimized + Mod Menu + Sodium Extra + Continuity + LambDynamicLights + Inventory Profiles Next + BetterF3 + Xaero's Minimap + Zoomify + Xaero's World Map + Borderless Mining + Just Enough Items + Better Mount HUD + Shulker Box Tooltip + Mouse Tweaks
 
 # Install Rust
 rustup-init -y --profile complete
