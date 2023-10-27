@@ -12,6 +12,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install rustup-init python helix gitui jupyterlab java
 brew install --cask julia discord quarto warp chromium libreoffice modrinth
 
+# FO + Complementary Shaders - Reimagined + Inventory Profiles Next + Xaero's Minimap + Xaero's World Map + Just Enough Items + Mouse Tweaks
+
 # Install Rust
 rustup-init -y --profile complete
 
