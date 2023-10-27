@@ -43,3 +43,5 @@ window:
  
  [editor.file-picker]
  hidden = false' > ~/.config/helix/config.toml
+
+# Disable mouse acceleration and natural scrolling
