@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew install rustup-init python helix gitui jupyterlab java
-brew install --cask julia discord quarto warp chromium libreoffice modrinth
+brew install --cask julia discord warp chromium libreoffice modrinth
 
 # FO + Complementary Shaders - Reimagined + Inventory Profiles Next + Xaero's Minimap + Xaero's World Map + Just Enough Items + Mouse Tweaks
 
