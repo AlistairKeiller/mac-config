@@ -19,13 +19,6 @@ rustup-init -y --profile complete
 git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
 
-# Configure Alacritty
-mkdir -p ~/.config/alacritty/
-echo 'font:
- size: 15.0
-window:
- option_as_alt: Both'> ~/.config/alacritty/alacritty.yml
-
  # Configure Helix
  mkdir -p ~/.config/helix/
  echo 'theme = "onedark"
