@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew install rustup-init python helix gitui jupyterlab java
-brew install --cask julia discord warp chromium libreoffice modrinth
+brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom
 
 # FO + Complementary Shaders - Reimagined + Presence Footsteps + AppleSkin + Inventory Profiles Next + Xaero's Minimap + Not Enough Animations + 3D Skin Layers + Roughly Enough Items + AmbientSounds + Xaero's World Map + Shulker Box Tooltip + Visuality + Eating Animation + Mouse Tweaks
 
