@@ -36,3 +36,4 @@ git config --global user.email alistair@keiller.net
  hidden = false' > ~/.config/helix/config.toml
 
 # Disable mouse acceleration and natural scrolling
+# Install kindle app from app store
