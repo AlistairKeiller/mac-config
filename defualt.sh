@@ -35,4 +35,4 @@ git config --global user.email alistair@keiller.net
  [editor.file-picker]
  hidden = false' > ~/.config/helix/config.toml
 
-# Disable mouse acceleration and natural scrolling
+# Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
