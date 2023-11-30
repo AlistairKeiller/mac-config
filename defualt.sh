@@ -7,7 +7,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' > /Users/alistairkeiller/.zprof
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
-brew install rustup-init python helix gitui jupyterlab java openai-whisper
+brew install rustup-init python helix gitui jupyterlab java
 brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs
 
 # FO + Complementary Shaders - Reimagined + Presence Footsteps + AppleSkin + Inventory Profiles Next + Xaero's Minimap + Not Enough Animations + 3D Skin Layers + Roughly Enough Items + AmbientSounds + Xaero's World Map + Shulker Box Tooltip + Visuality + Eating Animation + Mouse Tweaks
@@ -36,3 +36,4 @@ git config --global user.email alistair@keiller.net
  hidden = false' > ~/.config/helix/config.toml
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
+# Install whisper transcription from the app store
