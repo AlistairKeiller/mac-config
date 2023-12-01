@@ -9,7 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install Programs
 brew tap homebrew/cask-fonts
 brew install rustup-init python helix gitui jupyterlab java font-jetbrains-mono
-brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs
+brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs lapce
 
 # SO + Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Iris + Sodium Extra + Reece's Sodium Options + LambDynamicLights + Continuity + AppleSkin + Not Enough Animations + 3D Skin Layers + Zoomify + Xaero's Minimap + Inventory Profiles Next + Presence Footsteps + Xaero's World Map + Roughly Enough Items + Shulker Box Tooltip + Mouse Tweaks + Eating Animation + Ambient Sounds + Dynamic Crosshair + ClearDespawn + Make Bubbles Pop
 
