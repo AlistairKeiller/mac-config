@@ -12,6 +12,8 @@ brew install --cask --no-quarantine julia discord warp chromium libreoffice modr
 
 # FO + Complementary Shaders - Reimagined + Presence Footsteps + AppleSkin + Inventory Profiles Next + Xaero's Minimap + Not Enough Animations + 3D Skin Layers + Roughly Enough Items + AmbientSounds + Xaero's World Map + Shulker Box Tooltip + Visuality + Eating Animation + Mouse Tweaks
 
+# SO + Default Dark Mode + Enhanced Boss Bars + rotrBLOCKS + Even Better Enchants + Iris + Continuity + AppleSkin + Not Enough Animations + 3D Skin Layers + Zoomify + Xaero's Minimap + Inventory Profiles Next + Presence Footsteps + Xaero's World Map
+
 # Install Rust
 rustup-init -y --profile complete
 
