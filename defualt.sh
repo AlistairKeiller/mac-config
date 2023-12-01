@@ -10,9 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install rustup-init python helix gitui jupyterlab java
 brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs
 
-# FO + Complementary Shaders - Reimagined + Presence Footsteps + AppleSkin + Inventory Profiles Next + Xaero's Minimap + Not Enough Animations + 3D Skin Layers + Roughly Enough Items + AmbientSounds + Xaero's World Map + Shulker Box Tooltip + Visuality + Eating Animation + Mouse Tweaks
-
-# SO + Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Iris + Continuity + AppleSkin + Not Enough Animations + 3D Skin Layers + Zoomify + Xaero's Minimap + Inventory Profiles Next + Presence Footsteps + Xaero's World Map
+# SO + Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Iris + Sodium Extra + Reece's Sodium Options + LambDynamicLights + Continuity + AppleSkin + Not Enough Animations + 3D Skin Layers + Zoomify + Xaero's Minimap + Inventory Profiles Next + Presence Footsteps + Xaero's World Map
 
 # Install Rust
 rustup-init -y --profile complete
