@@ -11,7 +11,7 @@ brew tap homebrew/cask-fonts
 brew install rustup-init python helix gitui jupyterlab java font-jetbrains-mono
 brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs lapce
 
-# SO + Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Iris + Mod Menu + Sodium Extra + Reece's Sodium Options + LambDynamicLights + Continuity + AppleSkin + Not Enough Animations + BetterF3 + 3D Skin Layers + Zoomify + Xaero's Minimap + Inventory Profiles Next + Presence Footsteps + Xaero's World Map + Roughly Enough Items + Shulker Box Tooltip + More Chat History + Mouse Tweaks + ESSENTIAL Mod + Eating Animation + Ambient Sounds + Dynamic Crosshair + Better Statistics Screen + Better Ping Display + Boat Item View + ClearDespawn + Make Bubbles Pop
+# SO + Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Iris + Mod Menu + Sodium Extra + Reece's Sodium Options + LambDynamicLights + Continuity + AppleSkin + Not Enough Animations + BetterF3 + 3D Skin Layers + Zoomify + Xaero's Minimap + Inventory Profiles Next + Presence Footsteps + Xaero's World Map + Roughly Enough Items + Shulker Box Tooltip + More Chat History + Mouse Tweaks + ESSENTIAL Mod + Eating Animation + Ambient Sounds + Dynamic Crosshair + Better Statistics Screen + Better Ping Display + Boat Item View + ClearDespawn + Make Bubbles Pop + Enchantment Descriptions + Highlight + Enhanced Attack Indicator + Gamma Utils + MacOS Input Fixes + Distant Horizons + Monsters in the Closet + 
 
 # Install Rust
 rustup-init -y --profile complete
