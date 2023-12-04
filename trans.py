@@ -25,7 +25,7 @@ def asr_cli(model, device, batch_size, chunk_length, audio_file):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='ASR CLI')
-    parser.add_argument('--model', default='distil-whisper/distil-large-v2', type=str)
+    parser.add_argument('--model', default='openai/whisper-large-v3', type=str)
     parser.add_argument('--device', default='mps', type=str)
     parser.add_argument('--batch-size', default=4, type=int)
     parser.add_argument('--chunk-length', default=30, type=int)
