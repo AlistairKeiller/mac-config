@@ -9,7 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install Programs
 brew tap homebrew/cask-fonts
 brew install rustup-init python helix gitui jupyterlab font-jetbrains-mono
-brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet
+brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet buzz
 
 # SO + Complementary Shaders - Reimagined + Rethinking Voxels + Default Dark Mode + Enhanced Boss Bars + Iris + Mod Menu + Sodium Extra + Reece's Sodium Options + LambDynamicLights + Continuity + Dynamic FPS + AppleSkin + Not Enough Animations + BetterF3 + 3D Skin Layers + Zoomify + Xaero's Minimap (Minimap: off, Deathpoints: off) + Borderless Mining + Inventory Profiles Next (Enable Items Highlight: false, Enable Overlay Editor Button: false, Enable Settings Button In Inventory: false) + Presence Footsteps (volume: .2) + Xaero's World Map + Roughly Enough Items + Better Mount HUD + More Chat History + Shulker Box Tooltip + Mouse Tweaks + Eating Animation + Better Statistics Screen + Better Ping Display + Chat Heads + Bobby + Boat Item View + ClearDespawn + Make Bubbles Pop + Enchantment Descriptions + Highlight + Roughly Enough Professions + MacOS Input Fixes + Better Third Person + Detail Armor Bar + Status Effect Bars + Held Item Info + Chest Tracker
 # + Simple Voice Chat + Debugify
@@ -38,4 +38,3 @@ git config --global user.email alistair@keiller.net
  hidden = false' > ~/.config/helix/config.toml
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
-# Install whisper transcription from the app store
