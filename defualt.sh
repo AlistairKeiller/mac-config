@@ -11,10 +11,10 @@ brew tap homebrew/cask-fonts
 brew install rustup-init python pipx helix gitui jupyterlab font-jetbrains-mono
 brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet
 
-# SO
+# FO
 # + Complementary Shaders - Reimagined + Rethinking Voxels
 # + Default Dark Mode + Enhanced Boss Bars + Even Better Enchants
-# + Iris + Mod Menu + LambDynamicLights + Continuity + AppleSkin + Not Enough Animations + BetterF3 + 3D Skin Layers + Zoomify + Xaero's Minimap (Minimap: off, Deathpoints: off) + Inventory Profiles Next (Enable Items Highlight: false, Enable Overlay Editor Button: false, Enable Settings Button In Inventory: false, Last State Of Checkbox: false) + Presence Footsteps (volume: .3) + Xaero's World Map + Better Mount HUD + Shulker Box Tooltip + Mouse Tweaks + Eating Animation + Better Statistics Screen + Better Ping Display + Chat Heads + Boat Item View + EMI + ClearDespawn + Highlight + MacOS Input Fixes + Distant Horizons + Detail Armor Bar + Status Effect Bars + Chest Tracker
+# + AppleSkin + Not Enough Animations + BetterF3 + 3D Skin Layers + Xaero's Minimap (Minimap: off, Deathpoints: off) + Inventory Profiles Next (Enable Items Highlight: false, Enable Overlay Editor Button: false, Enable Settings Button In Inventory: false, Last State Of Checkbox: false) + Presence Footsteps (volume: .3) + Xaero's World Map + Shulker Box Tooltip + Mouse Tweaks + Eating Animation + Better Statistics Screen + Better Ping Display + Chat Heads + Boat Item View + EMI + ClearDespawn + Highlight + MacOS Input Fixes + Distant Horizons + Detail Armor Bar + Status Effect Bars + Chest Tracker
 # + Simple Voice Chat
 
 # Install Rust
