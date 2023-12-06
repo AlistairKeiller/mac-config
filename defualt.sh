@@ -14,7 +14,7 @@ brew install --cask --no-quarantine julia discord warp chromium libreoffice modr
 # FO
 # + Complementary Shaders - Reimagined + Rethinking Voxels
 # + Default Dark Mode + Enhanced Boss Bars + Even Better Enchants
-# + AppleSkin + Not Enough Animations + BetterF3 + 3D Skin Layers + Xaero's Minimap (Minimap: off, Deathpoints: off) + Inventory Profiles Next (Enable Items Highlight: false, Enable Overlay Editor Button: false, Enable Settings Button In Inventory: false, Last State Of Checkbox: false) + Presence Footsteps (Global Volume: 20%) + Xaero's World Map + Shulker Box Tooltip + Mouse Tweaks + Eating Animation + Better Statistics Screen + Better Ping Display + Chat Heads + Boat Item View + EMI + ClearDespawn + Highlight + MacOS Input Fixes + Distant Horizons + Detail Armor Bar + Status Effect Bars + Chest Tracker
+# + AppleSkin + Not Enough Animations + BetterF3 + 3D Skin Layers + Xaero's Minimap (Minimap: off, Deathpoints: off) + Inventory Profiles Next (Enable Items Highlight: false, Enable Overlay Editor Button: false, Enable Settings Button In Inventory: false, Last State Of Checkbox: false) + Presence Footsteps (Global Volume: 20%) + Xaero's World Map + Shulker Box Tooltip + Mouse Tweaks + Eating Animation + Better Statistics Screen + Better Ping Display + Chat Heads + Bobby + Boat Item View + EMI + ClearDespawn + Highlight + MacOS Input Fixes + Distant Horizons + Detail Armor Bar + Status Effect Bars + Chest Tracker
 # + Simple Voice Chat
 
 # Install Rust
