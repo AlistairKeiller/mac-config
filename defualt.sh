@@ -17,6 +17,7 @@ brew install --cask --no-quarantine julia discord warp chromium libreoffice modr
 # Client Functionally Important Mods: AppleSkin + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + MacOS Input Fixes + ItemSwapper + Chest Tracker + Inventory Essentials
 # Client QOL mods: Not Enough Animations + BetterF3 (Font Scale: 0.7) + 3D Skin Layers + Presence Footsteps (Global Volume: 20%) + Eating Animation + Better Ping Display + Chat Heads + Boat Item View + Make Bubbles Pop + ClearDespawn + Highlight + Distant Horizons (incompatible with ModernFix) + Detail Armor Bar
 # + Simple Voice Chat + Inventory Management
+
 # Install Rust
 rustup-init -y --profile complete
 
