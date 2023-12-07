@@ -11,10 +11,11 @@ brew tap homebrew/cask-fonts
 brew install rustup-init python pipx helix gitui jupyterlab font-jetbrains-mono
 brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet
 
-# FO
-# + Complementary Shaders - Reimagined + Rethinking Voxels
-# + Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Fresh Animations
-# + AppleSkin + Not Enough Animations + BetterF3 (Font Scale: 0.7) + 3D Skin Layers + Xaero's Minimap (Minimap: off, Deathpoints: off) + Presence Footsteps (Global Volume: 20%) + Xaero's World Map + Shulker Box Tooltip + Eating Animation + Better Statistics Screen + Better Ping Display + Chat Heads + Bobby + Boat Item View + EMI + Make Bubbles Pop + ClearDespawn + Highlight + Mouse Wheelie + MacOS Input Fixes + Detail Armor Bar + ItemSwapper + Status Effect Bars + Chest Tracker
+# FO or SO
+# Shaders: Complementary Shaders - Reimagined + Rethinking Voxels
+# Resource Packs: Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Fresh Animations
+# Client Functionally Important Mods: AppleSkin + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + Mouse Wheelie + MacOS Input Fixes + ItemSwapper + Chest Tracker
+# Client QOL mods: Not Enough Animations + BetterF3 (Font Scale: 0.7) + 3D Skin Layers + Presence Footsteps (Global Volume: 20%) + Eating Animation + Better Statistics Screen + Better Ping Display + Chat Heads + Bobby + Boat Item View + EMI + Make Bubbles Pop + ClearDespawn + Highlight + Detail Armor Bar + Status Effect Bars
 # + Simple Voice Chat
 # Install Rust
 rustup-init -y --profile complete
