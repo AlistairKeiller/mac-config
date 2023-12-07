@@ -14,9 +14,9 @@ brew install --cask --no-quarantine julia discord warp chromium libreoffice modr
 # FO or SO
 # Shaders: Complementary Shaders - Reimagined + Rethinking Voxels
 # Resource Packs: Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Fresh Animations
-# Client Functionally Important Mods: AppleSkin + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + Mouse Wheelie + MacOS Input Fixes + ItemSwapper + Chest Tracker
-# Client QOL mods: Not Enough Animations + BetterF3 (Font Scale: 0.7) + 3D Skin Layers + Presence Footsteps (Global Volume: 20%) + Eating Animation + Better Statistics Screen + Better Ping Display + Chat Heads + Bobby + Boat Item View + EMI + Make Bubbles Pop + ClearDespawn + Highlight + Detail Armor Bar + Status Effect Bars
-# + Simple Voice Chat
+# Client Functionally Important Mods: AppleSkin + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + MacOS Input Fixes + ItemSwapper + Chest Tracker
+# Client QOL mods: Not Enough Animations + BetterF3 (Font Scale: 0.7) + 3D Skin Layers + Presence Footsteps (Global Volume: 20%) + Eating Animation + Better Ping Display + Chat Heads + Bobby + Boat Item View + EMI + Make Bubbles Pop + ClearDespawn + Highlight + Detail Armor Bar + Status Effect Bars
+# + Simple Voice Chat + Inventory Management
 # Install Rust
 rustup-init -y --profile complete
 
