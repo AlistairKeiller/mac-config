@@ -9,7 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install Programs
 brew tap homebrew/cask-fonts
 brew install rustup-init python pipx helix gitui jupyterlab font-jetbrains-mono
-brew install --cask --no-quarantine julia discord warp chromium libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet blender
+brew install --cask --no-quarantine julia discord warp google-chrome libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet blender
 
 # FO or SO
 # Shaders: Complementary Shaders - Reimagined + Rethinking Voxels
