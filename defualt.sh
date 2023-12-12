@@ -11,13 +11,7 @@ brew tap homebrew/cask-fonts
 brew install rustup-init python pipx helix gitui jupyterlab font-jetbrains-mono
 brew install --cask --no-quarantine julia discord warp google-chrome libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet blender
 
-# FO or SO
-# Mods: Simple Voice Chat + Inventory Management
-# Client Essential Functionality: Shulker Box Tooltip + MacOS Input Fixes + ItemSwapper + Inventory Essentials
-# Client Functional Mods: AppleSkin + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Chest Tracker + Detail Armor Bar
-# Client QOL mods: Not Enough Animations + BetterF3 (Font Scale: 0.7) + 3D Skin Layers + Presence Footsteps (Global Volume: 20%) + Eating Animation + Better Ping Display + Chat Heads + Boat Item View + Make Bubbles Pop + ClearDespawn + Highlight + Distant Horizons (incompatible with ModernFix)
-# Shaders: Complementary Shaders - Reimagined + Rethinking Voxels
-# Resource Packs: Default Dark Mode + Enhanced Boss Bars + Even Better Enchants + Fresh Animations
+# SO + LambDynamicLights + Simple Voice Chat + Continuity + AppleSkin + BetterF3 (Font Scale: 0.7) + Xaero's Minimap (Minimap: off, Deathpoints: off) + Zoomify + Presence Footsteps (volume: 20%) + Debugify + Xaero's World Map + Shulker Box Tooltip + Sound Physics Remastered + MacOS Input Fixes + Distant Horizons (incompatible with ModernFix) + ItemSwapper + Chest Tracker
 
 # Install Rust
 rustup-init -y --profile complete
