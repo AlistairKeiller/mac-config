@@ -11,7 +11,7 @@ brew tap homebrew/cask-fonts
 brew install rustup-init python pipx helix gitui jupyterlab font-jetbrains-mono
 brew install --cask --no-quarantine julia discord warp google-chrome libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet blender
 
-# SO + LambDynamicLights + Simple Voice Chat + Continuity + AppleSkin + BetterF3 (Font Scale: 0.7) + Xaero's Minimap (Minimap: off, Deathpoints: off) + Zoomify + Presence Footsteps (volume: 20%) + Debugify + Xaero's World Map + Shulker Box Tooltip + Sound Physics Remastered + MacOS Input Fixes + Distant Horizons (incompatible with ModernFix) + ItemSwapper + Chest Tracker
+# SO + LambDynamicLights + Simple Voice Chat + Continuity + AppleSkin + BetterF3 (Font Scale: 0.7) + Xaero's Minimap (Minimap: off, Deathpoints: off) + Zoomify + Presence Footsteps (volume: 20%) + Debugify + Xaero's World Map + Shulker Box Tooltip + Sound Physics Remastered + MacOS Input Fixes + Chest Tracker
 
 # Install Rust
 rustup-init -y --profile complete
