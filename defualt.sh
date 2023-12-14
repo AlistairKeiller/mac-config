@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew tap homebrew/cask-fonts
-brew install rustup-init python pipx helix gitui jupyterlab font-jetbrains-mono font-monocraft font-monaspace
+brew install rustup-init python helix gitui jupyterlab font-jetbrains-mono font-monocraft font-monaspace
 brew install --cask --no-quarantine julia discord warp google-chrome libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet blender
 
 # SO + Simple Voice Chat + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + Bobby + MacOS Input Fixes + Mouse Wheelie
