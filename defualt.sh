@@ -11,7 +11,7 @@ brew tap homebrew/cask-fonts
 brew install rustup-init python pipx helix gitui jupyterlab font-jetbrains-mono
 brew install --cask --no-quarantine julia discord warp google-chrome libreoffice modrinth zoom inkcsape kindle obs lapce wacom-tablet blender
 
-# SO + Mod Menu + Simple Voice Chat + Continuity + AppleSkin + Xaero's Minimap (Minimap: off, Deathpoints: off) + Zoomify + Presence Footsteps (volume: 20%) + Xaero's World Map + Shulker Box Tooltip + Sound Physics Remastered + MacOS Input Fixes
+# SO + Simple Voice Chat + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + MacOS Input Fixes + Mouse Wheelie
 
 # Install Rust
 rustup-init -y --profile complete
