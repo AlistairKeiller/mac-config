@@ -37,4 +37,4 @@ git config --global user.email alistair@keiller.net
  hidden = false' > ~/.config/helix/config.toml
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
-# install "Aiko" and "Draw Things: AI Generation"
+# install "Aiko"
