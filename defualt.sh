@@ -39,4 +39,4 @@ git config --global user.email alistair@keiller.net
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # install "Aiko"
 # lm-studio: phi-2, Mistral-7B-Instruct-v0.2, dolphin-2.2.1-mistral-7B
-# draw-things: SDXL Base v1.0 (8-bit), DreamShaper XL - Turbo DPMpp SDE
+# draw-things: SDXL Base v1.0 (8-bit), DreamShaper XL - Turbo DPMpp SDE, DreamShaper (with BadDream and UnrealisticDream)
