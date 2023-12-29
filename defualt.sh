@@ -36,7 +36,8 @@ git config --global user.email alistair@keiller.net
  [editor.file-picker]
  hidden = false' > ~/.config/helix/config.toml
 
+git clone https://github.com/lllyasviel/Fooocus ~/Fooocus
+
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # install "Aiko"
-# lm-studio: phi-2, Mistral-7B-Instruct-v0.2, dolphin-2.2.1-mistral-7B
-# clone and run Fooocus
+# lm-studio: phi-2, Mistral-7B-Instruct-v0.2, dolphin-2.2.1-mistral-7
