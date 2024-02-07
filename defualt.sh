@@ -8,8 +8,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew tap homebrew/cask-fonts
-brew install rustup-init python3 helix gitui font-jetbrains-mono ffmpeg
-brew install --cask --no-quarantine julia discord warp google-chrome libreoffice modrinth zoom inkscape kindle obs lapce blender spotify sidequest lm-studio quarto
+brew install rustup-init python3 font-jetbrains-mono ffmpeg
+brew install --cask --no-quarantine julia discord warp google-chrome libreoffice modrinth zoom inkscape kindle obs lapce zed blender spotify sidequest lm-studio quarto
 
 # SO + Simple Voice Chat + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + Bobby + MacOS Input Fixes + Mouse Wheelie + Zoomify + Librarian Trade Finder + OffersHUD + 
 
