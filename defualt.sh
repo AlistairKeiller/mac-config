@@ -14,6 +14,7 @@ brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender q
 
 # Install Jupyter
 pip3 install jupyterlab nbconvert ipyflow
+echo 'export JUPYTER_PATH=/opt/homebrew/share/jupyter:$JUPYTER_PATH' >> ~/.zshrc
 
 # Install Rust
 rustup-init -y --profile complete
