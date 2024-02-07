@@ -12,6 +12,9 @@ brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender q
 
 # SO + Simple Voice Chat + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + Bobby + MacOS Input Fixes + Mouse Wheelie + Zoomify + Librarian Trade Finder + OffersHUD + 
 
+# Install Jupyter
+pip3 install jupyterlab
+
 # Install Rust
 rustup-init -y --profile complete
 
