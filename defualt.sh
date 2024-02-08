@@ -17,6 +17,7 @@ pip3 install jupyterlab nbconvert ipyflow
 echo 'export JUPYTER_PATH=/opt/homebrew/share/jupyter:$JUPYTER_PATH' >> ~/.zshrc
 ln -s /opt/homebrew/bin/python3 /opt/homebrew/bin/python
 ln -s /opt/homebrew/bin/pip3 /opt/homebrew/bin/pip
+ln -s /opt/homebrew/share/jupyter/kernels/ ~/Library/Jupyter/kernels/
 
 # Install Rust
 rustup-init -y --profile complete
