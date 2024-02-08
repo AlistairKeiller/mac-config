@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew install rustup-init python3 ffmpeg helix
-brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape mactex jupyterlab sidequest warp google-chrome lm-studio discord adobe-connect
+brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape mactex sidequest warp google-chrome lm-studio discord adobe-connect
 
 # SO + Simple Voice Chat + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + Bobby + MacOS Input Fixes + Mouse Wheelie + Zoomify + Librarian Trade Finder + OffersHUD + 
 
@@ -17,8 +17,6 @@ pip3 install jupyterlab nbconvert ipyflow
 echo 'export JUPYTER_PATH=/opt/homebrew/share/jupyter:$JUPYTER_PATH' >> ~/.zshrc
 ln -s /opt/homebrew/bin/python3 /opt/homebrew/bin/python
 ln -s /opt/homebrew/bin/pip3 /opt/homebrew/bin/pip
-ln -s /opt/homebrew/share/jupyter/kernels ~/Library/Jupyter/kernels
-ln -s /opt/homebrew/share/jupyter/labextensions ~/Library/Jupyter/labextensions
 
 # Install Rust
 rustup-init -y --profile complete
