@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew install rustup-init python3 ffmpeg helix
-brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex sidequest warp google-chrome lm-studio discord adobe-connect ableton-live-lite
+brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex sidequest warp google-chrome lm-studio discord adobe-connect
 
 # SO + Simple Voice Chat + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + Bobby + MacOS Input Fixes + Mouse Wheelie + Zoomify + Librarian Trade Finder + OffersHUD + 
 
@@ -42,5 +42,5 @@ git config --global user.email alistair@keiller.net
  hidden = false' > ~/.config/helix/config.toml
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
-# install "Aiko"
+# install "Aiko", 3Dconnexion, and Focusrite Control 2
 # lm-studio: phi-2, Mistral-7B-Instruct-v0.2, dolphin-2.2.1-mistral-7
