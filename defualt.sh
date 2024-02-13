@@ -8,7 +8,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install Programs
 brew install rustup-init python3 ffmpeg helix
-brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex sidequest warp google-chrome lm-studio discord adobe-connect
+brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex sidequest warp google-chrome lm-studio discord adobe-connect ableton-live-lite blackhole-2ch
 
 # SO + Simple Voice Chat + Xaero's Minimap (Minimap: off, Deathpoints: off) + Xaero's World Map + Shulker Box Tooltip + Bobby + MacOS Input Fixes + Mouse Wheelie + Zoomify + Librarian Trade Finder + OffersHUD + 
 
