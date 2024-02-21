@@ -6,9 +6,12 @@ set -e
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' > /Users/alistairkeiller/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Install yabai
 brew tap FelixKratz/formulae homebrew/cask-fonts
-brew install borders sketchybar koekeishiya/formulae/yabai koekeishiya/formulae/skhd
-brew install --cask font-hack-nerd-font
+brew install borders koekeishiya/formulae/yabai koekeishiya/formulae/skhd
+
+# Install sketchybar
+curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_sketchybar.sh | sh
 
 # Install Programs
 brew install rustup-init python3 ffmpeg helix
