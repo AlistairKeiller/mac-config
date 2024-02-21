@@ -45,5 +45,6 @@ git config --global user.email alistair@keiller.net
  hidden = false' > ~/.config/helix/config.toml
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
+# Automatically hide the menu bar and dock
 # install "Aiko", 3Dconnexion, and Focusrite Control 2
 # lm-studio: phi-2, Mistral-7B-Instruct-v0.2, dolphin-2.2.1-mistral-7
