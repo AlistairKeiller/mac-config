@@ -10,6 +10,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew tap FelixKratz/formulae homebrew/cask-fonts
 brew install borders koekeishiya/formulae/yabai koekeishiya/formulae/skhd
 skhd --start-service
+yabai --start-service
 brew services start borders
 
 # Install sketchybar
