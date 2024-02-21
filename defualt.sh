@@ -7,6 +7,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' > /Users/alistairkeiller/.zprof
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew tap FelixKratz/formulae
+brew install borders
 brew install koekeishiya/formulae/yabai
 brew install koekeishiya/formulae/skhd
 
