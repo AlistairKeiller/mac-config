@@ -6,6 +6,10 @@ set -e
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' > /Users/alistairkeiller/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+brew tap FelixKratz/formulae
+brew install koekeishiya/formulae/yabai
+brew install koekeishiya/formulae/skhd
+
 # Install Programs
 brew install rustup-init python3 ffmpeg helix
 brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex sidequest warp google-chrome lm-studio discord adobe-connect ableton-live-lite blackhole-2ch
