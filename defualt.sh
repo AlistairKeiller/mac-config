@@ -13,8 +13,7 @@ chsh -s /opt/homebrew/bin/fish
 fish -c "fish_add_path /opt/homebrew/bin"
 
 # Tiling window management
-brew tap FelixKratz/formulae
-brew install borders koekeishiya/formulae/yabai koekeishiya/formulae/skhd
+brew install FelixKratz/formulae/borders koekeishiya/formulae/yabai koekeishiya/formulae/skhd
 skhd --start-service
 yabai --start-service
 brew services start borders
