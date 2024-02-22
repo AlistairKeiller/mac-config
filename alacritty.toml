@@ -1,5 +1,8 @@
+import = ["~/.config/alacritty/themes/themes/catppuccin.toml"]
+
 [window]
-decorations = "None"
+decorations = "buttonless"
+padding = { x = 3, y = 5 }
 
 [font]
 size = 14
