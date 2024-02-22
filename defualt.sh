@@ -25,6 +25,7 @@ brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender k
 mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 # set zed theme to Catppuccin
+# install https://github.com/catppuccin/discord
 
 # Install Jupyter
 pip3 install jupyterlab nbconvert
