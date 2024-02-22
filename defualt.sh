@@ -20,7 +20,7 @@ brew services start borders
 curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_sketchybar.sh | sh
 
 # Install Programs
-brew install rustup-init python3 ffmpeg helix
+brew install rustup-init python3
 brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex-no-gui sidequest alacritty google-chrome lm-studio discord adobe-connect ableton-live-lite blackhole-2ch
 mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
