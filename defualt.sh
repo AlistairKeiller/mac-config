@@ -24,9 +24,10 @@ brew install rustup-init python3
 brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex-no-gui sidequest alacritty google-chrome lm-studio discord betterdiscord-installer spicetify/homebrew-tap/spicetify-cli adobe-connect
 mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
-# set zed theme to Catppuccin
+# install "Catppuccin Themes" to zed
 # install https://github.com/catppuccin/discord
 # install https://github.com/catppuccin/spicetify
+# install https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/bkkmolkhemgaeaeggcmfbghljjjoofoh
 
 # Install Jupyter
 pip3 install jupyterlab nbconvert
