@@ -39,9 +39,3 @@ ctrl + shift - s : yabai -m window --toggle sticky
 
 # Toggle sketchybar
 ctrl - space : sketchybar --bar hidden=toggle
-
-# Open safari
-ctrl - s : open -a Safari
-
-# Open warp
-ctrl - w : open -a Warp
