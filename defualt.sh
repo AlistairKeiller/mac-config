@@ -26,7 +26,7 @@ mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 
 # Install Jupyter
-pip3 install jupyterlab nbconvert ipyflow
+pip3 install jupyterlab nbconvert
 echo 'export JUPYTER_PATH=/opt/homebrew/share/jupyter:$JUPYTER_PATH' >> ~/.zshrc
 ln -s /opt/homebrew/bin/python3 /opt/homebrew/bin/python
 ln -s /opt/homebrew/bin/pip3 /opt/homebrew/bin/pip
