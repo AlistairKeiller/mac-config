@@ -12,14 +12,12 @@ sudo sh -c 'echo /opt/homebrew/bin/fish >> /etc/shells'
 chsh -s /opt/homebrew/bin/fish
 fish -c "fish_add_path /opt/homebrew/bin"
 
-# Install yabai
+# Tiling window management
 brew tap FelixKratz/formulae homebrew/cask-fonts
 brew install borders koekeishiya/formulae/yabai koekeishiya/formulae/skhd
 skhd --start-service
 yabai --start-service
 brew services start borders
-
-# Install sketchybar
 curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_sketchybar.sh | sh
 
 # Install Programs
