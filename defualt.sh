@@ -24,6 +24,7 @@ brew install rustup-init python3
 brew install --cask --no-quarantine julia libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex-no-gui sidequest alacritty google-chrome lm-studio discord adobe-connect
 mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+# set zed theme to Catppuccin
 
 # Install Jupyter
 pip3 install jupyterlab nbconvert
