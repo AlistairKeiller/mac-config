@@ -7,6 +7,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' > /Users/alistairkeiller/.zprof
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install fish
+brwe install fish
 sudo sh -c 'echo /opt/homebrew/bin/fish >> /etc/shells'
 chsh -s /opt/homebrew/bin/fish
 fish -c "fish_add_path /opt/homebrew/bin"
