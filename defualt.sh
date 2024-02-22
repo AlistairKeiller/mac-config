@@ -45,3 +45,12 @@ git config --global user.email alistair@keiller.net
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
 # install "Aiko", 3Dconnexion, and Focusrite Control 2
+
+# <script src="https://unpkg.com/darkreader@4.9.77/darkreader.js"></script>
+# <script>
+#     DarkReader.enable({
+#         darkSchemeBackgroundColor: "#1e1e2e",
+#         darkSchemeTextColor: "#cdd6f4",
+#         selectionColor: "#585b70",
+#     });
+# </script>
