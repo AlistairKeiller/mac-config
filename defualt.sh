@@ -26,6 +26,7 @@ mkdir -p ~/.config/alacritty/themes
 git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 # set zed theme to Catppuccin
 # install https://github.com/catppuccin/discord
+# install https://github.com/catppuccin/spicetify/tree/main
 
 # Install Jupyter
 pip3 install jupyterlab nbconvert
