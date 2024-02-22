@@ -6,6 +6,11 @@ set -e
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' > /Users/alistairkeiller/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Install fish
+sudo sh -c 'echo /opt/homebrew/bin/fish >> /etc/shells'
+chsh -s /opt/homebrew/bin/fish
+fish -c "fish_add_path /opt/homebrew/bin"
+
 # Install yabai
 brew tap FelixKratz/formulae homebrew/cask-fonts
 brew install borders koekeishiya/formulae/yabai koekeishiya/formulae/skhd
