@@ -30,7 +30,7 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 # install https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/bkkmolkhemgaeaeggcmfbghljjjoofoh
 
 # Install Jupyter
-pip3 install jupyterlab nbconvert
+pip3 install jupyter
 echo 'export JUPYTER_PATH=/opt/homebrew/share/jupyter:$JUPYTER_PATH' >> ~/.zshrc
 ln -s /opt/homebrew/bin/python3 /opt/homebrew/bin/python
 ln -s /opt/homebrew/bin/pip3 /opt/homebrew/bin/pip
