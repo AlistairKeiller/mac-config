@@ -30,12 +30,6 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 # install https://github.com/catppuccin/spicetify
 # install https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/bkkmolkhemgaeaeggcmfbghljjjoofoh
 
-# Install Jupyter
-pip3 install jupyter
-echo 'export JUPYTER_PATH=/opt/homebrew/share/jupyter:$JUPYTER_PATH' >> ~/.zshrc
-ln -s /opt/homebrew/bin/python3 /opt/homebrew/bin/python
-ln -s /opt/homebrew/bin/pip3 /opt/homebrew/bin/pip
-
 # Install Rust
 rustup-init -y --profile complete
 
@@ -46,12 +40,3 @@ git config --global user.email alistair@keiller.net
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
 # install "Aiko", 3Dconnexion, and Focusrite Control 2
-
-# <script src="https://unpkg.com/darkreader@4.9.77/darkreader.js"></script>
-# <script>
-#     DarkReader.enable({
-#         darkSchemeBackgroundColor: "#1e1e2e",
-#         darkSchemeTextColor: "#cdd6f4",
-#         selectionColor: "#585b70",
-#     });
-# </script>
