@@ -37,6 +37,9 @@ rustup-init -y --profile complete
 git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
 
+# Configure ssh
+echo "ServerAliveInterval 60" > ~/.ssh/config
+
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
 # install "Aiko", 3Dconnexion, and Focusrite Control 2
