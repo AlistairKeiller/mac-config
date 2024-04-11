@@ -23,8 +23,9 @@ curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_ske
 # Install Programs
 brew install rustup-init
 brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord betterdiscord-installer spotify adobe-connect
+mkdir -p ~/Library/Application\ Support/BetterDiscord/themes
 curl https://raw.githubusercontent.com/catppuccin/discord/main/themes/mocha.theme.css > ~/Library/Application\ Support/BetterDiscord/themes/catppuccin-mocha.theme.css
-curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
+fish -c "curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh"
 # install "Catppuccin Themes" to zed
 # install Catppuccin Mocha to spicetify marketplace (https://github.com/catppuccin/spicetify)
 # install https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/bkkmolkhemgaeaeggcmfbghljjjoofoh
@@ -37,6 +38,7 @@ git config --global user.name "Alistair Keiller"
 git config --global user.email alistair@keiller.net
 
 # Configure ssh
+mkdir -p ~/.ssh
 echo "ServerAliveInterval 60" > ~/.ssh/config
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate

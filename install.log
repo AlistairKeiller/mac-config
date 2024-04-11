@@ -1,0 +1,8 @@
+[11:32:06 2024-04-11] FETCHING Version 2.36.4
+[11:32:06 2024-04-11] DOWNLOADING https://github.com/spicetify/spicetify-cli/releases/download/v2.36.4/spicetify-2.36.4-darwin-arm64.tar.gz
+[11:32:06 2024-04-11] EXTRACTING /Users/alistairkeiller/.spicetify/spicetify.tar.gz
+[11:32:06 2024-04-11] SETTING EXECUTABLE PERMISSIONS TO /Users/alistairkeiller/.spicetify/spicetify
+[11:32:06 2024-04-11] REMOVING /Users/alistairkeiller/.spicetify/spicetify.tar.gz
+[11:32:06 2024-04-11] spicetify path already set in /Users/alistairkeiller/.config/fish/config.fish, continuing...
+[11:32:06 2024-04-11] spicetify v2.36.4 was installed successfully to /Users/alistairkeiller/.spicetify
+[11:32:06 2024-04-11] Run 'spicetify --help' to get started
