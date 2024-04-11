@@ -19,16 +19,11 @@ skhd --start-service
 yabai --start-service
 brew services start borders
 curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_sketchybar.sh | sh
+# https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection
 
 # Install Programs
 brew install rustup-init
-brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord betterdiscord-installer spotify adobe-connect
-mkdir -p ~/Library/Application\ Support/BetterDiscord/themes
-curl https://raw.githubusercontent.com/catppuccin/discord/main/themes/mocha.theme.css > ~/Library/Application\ Support/BetterDiscord/themes/catppuccin-mocha.theme.css
-fish -c "curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-cli/master/install.sh | sh"
-# install "Catppuccin Themes" to zed
-# install Catppuccin Mocha to spicetify marketplace (https://github.com/catppuccin/spicetify)
-# install https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/bkkmolkhemgaeaeggcmfbghljjjoofoh
+brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord spotify adobe-connect
 
 # Install Rust
 rustup-init -y --profile complete

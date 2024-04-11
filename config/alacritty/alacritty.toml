@@ -1,5 +1,3 @@
-import = ["~/.config/alacritty/alacritty-theme/themes/catppuccin.toml"]
-
 [window]
 decorations = "buttonless"
 padding = { x = 3, y = 5 }
