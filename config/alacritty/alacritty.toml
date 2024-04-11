@@ -1,4 +1,4 @@
-import = ["~/.config/alacritty/themes/themes/catppuccin.toml"]
+import = ["~/.config/alacritty/alacritty-theme/themes/catppuccin.toml"]
 
 [window]
 decorations = "buttonless"
