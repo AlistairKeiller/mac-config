@@ -19,6 +19,7 @@ skhd --start-service
 yabai --start-service
 brew services start borders
 curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_sketchybar.sh | sh
+cp -r mac-config/config/* .config/
 # https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection
 
 # Install Programs
