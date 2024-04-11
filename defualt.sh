@@ -21,13 +21,12 @@ brew services start borders
 curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_sketchybar.sh | sh
 
 # Install Programs
-brew install rustup-init python3
-brew install --cask --no-quarantine julia helix libreoffice modrinth obs zed blender kdenlive audacity inkscape raspberry-pi-imager mactex-no-gui sidequest alacritty google-chrome lm-studio discord betterdiscord-installer spicetify/homebrew-tap/spicetify-cli adobe-connect
-mkdir -p ~/.config/alacritty/themes
-git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+brew install rustup-init
+brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord betterdiscord-installer spotify adobe-connect
+curl https://raw.githubusercontent.com/catppuccin/discord/main/themes/mocha.theme.css > ~/Library/Application\ Support/BetterDiscord/themes/catppuccin-mocha.theme.css
+curl -fsSL https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/install.sh | sh
 # install "Catppuccin Themes" to zed
-# install https://github.com/catppuccin/discord
-# install https://github.com/catppuccin/spicetify
+# install Catppuccin Mocha to spicetify marketplace (https://github.com/catppuccin/spicetify)
 # install https://chromewebstore.google.com/detail/catppuccin-chrome-theme-m/bkkmolkhemgaeaeggcmfbghljjjoofoh
 
 # Install Rust
@@ -42,5 +41,5 @@ echo "ServerAliveInterval 60" > ~/.ssh/config
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
-# install "Aiko", 3Dconnexion, and Focusrite Control 2
-# set defualt screenshot location to clipboard
+# install "Aiko", and Focusrite Control 2
+# set defualt screenshot location to documents
