@@ -24,7 +24,7 @@ cp -r mac-config/config/* .config/
 
 # Install Programs
 brew install rustup-init
-brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord spotify adobe-connect
+brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord spotify
 
 # Install Rust
 rustup-init -y --profile complete
