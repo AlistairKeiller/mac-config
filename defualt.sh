@@ -13,7 +13,7 @@ fish -c "fish_add_path /opt/homebrew/bin"
 
 # Install Programs
 brew install rustup-init
-brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord spotify bambu-studio kdenlive amethyst
+brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord spotify bambu-studio kdenlive amethyst gh
 curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_sketchybar.sh | sh
 rustup-init -y --profile complete
 # https://ianyh.com/amethyst/
