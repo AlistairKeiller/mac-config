@@ -33,5 +33,3 @@ cp -r mac-config/config/* .config/
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
-# install "Aiko", and Focusrite Control 2
-# set defualt screenshot location to documents
