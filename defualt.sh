@@ -14,11 +14,8 @@ fish -c "fish_add_path /opt/homebrew/bin"
 # Install Programs
 brew tap oven-sh/bun
 brew install rustup-init gh python pipx bun
-brew install --cask --no-quarantine julia zed obs alacritty chromium discord spotify bambu-studio kdenlive amethyst
-curl -L https://raw.githubusercontent.com/FelixKratz/dotfiles/master/install_sketchybar.sh | sh
+brew install --cask --no-quarantine julia zed obs alacritty chromium discord spotify bambu-studio kdenlive
 rustup-init -y --profile complete
-# https://ianyh.com/amethyst/
-# keyboard shortcuts -> mission control -> mission control -> switch to desktops
 
 # Configure Git
 git config --global user.name "Alistair Keiller"
