@@ -14,7 +14,7 @@ fish -c "fish_add_path /opt/homebrew/bin"
 # Install Programs
 brew tap oven-sh/bun
 brew install rustup-init gh python pipx bun
-brew install --cask --no-quarantine julia zed obs alacritty chromium discord spotify bambu-studio kdenlive autodesk-fusion
+brew install --cask --no-quarantine julia zed obs alacritty chromium discord spotify bambu-studio kdenlive autodesk-fusion nikitabobko/tap/aerospace
 rustup-init -y --profile complete
 
 # Configure Git
@@ -26,7 +26,8 @@ mkdir -p ~/.ssh
 echo "ServerAliveInterval 60" > ~/.ssh/config
 
 # .config
-cp -r mac-config/config/* .config/
+mkdir -p ~/.config/
+cp -r ./config/* ~/.config/
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
