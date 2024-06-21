@@ -26,7 +26,8 @@ mkdir -p ~/.ssh
 echo "ServerAliveInterval 60" > ~/.ssh/config
 
 # .config
-cp -r mac-config/config/* .config/
+mkdir -p ~/.config/
+cp -r ./config/* ~/.config/
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
