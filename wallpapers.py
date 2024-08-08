@@ -2,7 +2,7 @@ import os
 import shutil
 from PIL import Image
 
-source_dir = "catppuccin-wallpapers"
+source_dir = "source-wallpapers"
 destination_dir = "wallpapers"
 
 os.makedirs(destination_dir, exist_ok=True)

@@ -1,6 +1,6 @@
 [submodule "catppuccin-wallpapers"]
-	path = catppuccin-wallpapers
+	path = source-wallpapers/catppuccin-wallpapers
 	url = https://github.com/zhichaoh/catppuccin-wallpapers
 [submodule "walls-catppuccin-mocha"]
-	path = walls-catppuccin-mocha
+	path = source-wallpapers/walls-catppuccin-mocha
 	url = https://github.com/orxngc/walls-catppuccin-mocha
