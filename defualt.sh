@@ -33,7 +33,7 @@ defaults write -g NSWindowShouldDragOnGesture YES
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
-# Install catppuccin mocha for vscode, zed, chromium, Jupyter Lab, 
+# Install catppuccin mocha for vscode (extension), zed (extension), chromium (web store), Jupyter Lab (extension), obs (./obs/install.sh)
 # space mouse:
 # Right: 3D Mouse Right
 # Left: 3D Mouse Left
