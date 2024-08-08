@@ -14,7 +14,7 @@ fish -c "fish_add_path /opt/homebrew/bin"
 # Install Programs
 brew tap oven-sh/bun
 brew install rustup-init trunk gh python pipx bun
-brew install --cask --no-quarantine julia zed obs alacritty chromium discord spotify bambu-studio kdenlive autodesk-fusion nikitabobko/tap/aerospace inkscape visual-studio-code
+brew install --cask --no-quarantine julia zed obs alacritty chromium discord spotify bambu-studio kdenlive autodesk-fusion nikitabobko/tap/aerospace inkscape visual-studio-code docker
 rustup-init -y --profile complete
 
 # Configure Git
