@@ -11,12 +11,29 @@ sudo sh -c 'echo /opt/homebrew/bin/fish >> /etc/shells'
 chsh -s /opt/homebrew/bin/fish
 fish -c "fish_add_path /opt/homebrew/bin"
 
-# Install Programs
-brew tap oven-sh/bun
-brew install rustup-init python bun gh
+# Install proramming languages
+brew install rustup-init
 rustup-init -y --profile complete
-brew install --cask --no-quarantine julia alacritty zed visual-studio-code obs kdenlive bambu-studio nikitabobko/tap/aerospace inkscape docker jupyterlab \
-  google-chrome discord spotify autodesk-fusion
+
+brew tap oven-sh/bun
+brew install bun
+
+brew install python
+
+brew install --cask julia
+
+# Install alacritty
+brew install --cask --no-quarantine alacritty
+
+# Install zed
+brew install gh
+brew install --cask zed
+
+# Install open-source programs
+brew install --cask bambu-studio nikitabobko/tap/aerospace inkscape docker jupyterlab
+
+# Install closed-source programs
+brew install --cask google-chrome discord spotify autodesk-fusion
 
 # Configure Git
 git config --global user.name "Alistair Keiller"
@@ -35,8 +52,8 @@ defaults write -g NSWindowShouldDragOnGesture YES
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
-# Install catppuccin mocha for vscode (extension), zed (extension), chrome (web store), Jupyter Lab (extension), obs (./obs/install.sh)
-# space mouse:
+# Install catppuccin mocha for zed (extension), chrome (web store), Jupyter Lab (extension)
+# download 3DxWare and config:
 # Right: 3D Mouse Right
 # Left: 3D Mouse Left
 # In: 3D Mouse Down
