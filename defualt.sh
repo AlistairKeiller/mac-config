@@ -14,7 +14,7 @@ fish -c "fish_add_path /opt/homebrew/bin"
 # Install Programs
 brew tap oven-sh/bun
 brew install rustup-init trunk gh python pipx bun
-brew install --cask --no-quarantine julia zed obs alacritty chromium discord spotify bambu-studio kdenlive autodesk-fusion nikitabobko/tap/aerospace inkscape visual-studio-code docker jupyterlab
+brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord spotify bambu-studio kdenlive autodesk-fusion nikitabobko/tap/aerospace inkscape visual-studio-code docker jupyterlab
 rustup-init -y --profile complete
 
 # Configure Git
@@ -33,7 +33,7 @@ defaults write -g NSWindowShouldDragOnGesture YES
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
-# Install catppuccin mocha for vscode (extension), zed (extension), chromium (web store), Jupyter Lab (extension), obs (./obs/install.sh)
+# Install catppuccin mocha for vscode (extension), zed (extension), chrome (web store), Jupyter Lab (extension), obs (./obs/install.sh)
 # space mouse:
 # Right: 3D Mouse Right
 # Left: 3D Mouse Left
