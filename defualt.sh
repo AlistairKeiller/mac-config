@@ -13,9 +13,10 @@ fish -c "fish_add_path /opt/homebrew/bin"
 
 # Install Programs
 brew tap oven-sh/bun
-brew install rustup-init gh python bun
-brew install --cask --no-quarantine julia zed obs alacritty google-chrome discord spotify bambu-studio kdenlive autodesk-fusion nikitabobko/tap/aerospace inkscape visual-studio-code docker jupyterlab
+brew install rustup-init python bun gh
 rustup-init -y --profile complete
+brew install --cask --no-quarantine julia alacritty zed visual-studio-code obs kdenlive bambu-studio nikitabobko/tap/aerospace inkscape docker jupyterlab \
+  google-chrome discord spotify autodesk-fusion
 
 # Configure Git
 git config --global user.name "Alistair Keiller"
@@ -29,6 +30,7 @@ echo "ServerAliveInterval 60" > ~/.ssh/config
 mkdir -p ~/.config/
 cp -r ./config/* ~/.config/
 
+# ctrl-opt-cmd to drag window
 defaults write -g NSWindowShouldDragOnGesture YES
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
