@@ -47,7 +47,7 @@ echo "ServerAliveInterval 60" > ~/.ssh/config
 mkdir -p ~/.config/
 cp -r ./config/* ~/.config/
 
-# ctrl-opt-cmd to drag window
+# ctrl+cmd to drag window
 defaults write -g NSWindowShouldDragOnGesture YES
 
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
