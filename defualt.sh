@@ -18,7 +18,7 @@ rustup-init -y --profile complete
 brew tap oven-sh/bun
 brew install bun
 
-brew install python
+brew install python ipython
 
 brew install --cask julia
 
