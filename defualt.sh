@@ -33,7 +33,7 @@ brew install --cask zed
 brew install --cask bambu-studio nikitabobko/tap/aerospace inkscape docker jupyterlab
 
 # Install closed-source programs
-brew install --cask google-chrome discord spotify autodesk-fusion
+brew install --cask google-chrome discord spotify
 
 # Configure Git
 git config --global user.name "Alistair Keiller"
