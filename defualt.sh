@@ -26,11 +26,10 @@ brew install --cask julia
 brew install --cask --no-quarantine alacritty
 
 # Install zed
-brew install gh
-brew install --cask zed
+brew install --cask zed github
 
 # Install open-source programs
-brew install --cask bambu-studio nikitabobko/tap/aerospace inkscape docker jupyterlab
+brew install --cask bambu-studio nikitabobko/tap/aerospace inkscape orbstack jupyterlab
 
 # Install closed-source programs
 brew install --cask google-chrome discord spotify
