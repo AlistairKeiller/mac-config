@@ -4,6 +4,3 @@
 [submodule "source-wallpapers/walls-catppuccin-mocha"]
 	path = source-wallpapers/walls-catppuccin-mocha
 	url = https://github.com/orxngc/walls-catppuccin-mocha
-[submodule "obs"]
-	path = obs
-	url = https://github.com/catppuccin/obs
