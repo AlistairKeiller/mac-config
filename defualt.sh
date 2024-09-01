@@ -50,19 +50,7 @@ cp -r ./config/* ~/.config/
 # ctrl+cmd to drag window
 defaults write -g NSWindowShouldDragOnGesture YES
 
+# Install 3DxWare and Fusion
+# Theme zed (extension), chrome (web store), Jupyter Lab (extension)
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
-# Install catppuccin mocha for zed (extension), chrome (web store), Jupyter Lab (extension)
-# download 3DxWare and config:
-# Right: 3D Mouse Right
-# Left: 3D Mouse Left
-# In: 3D Mouse Down
-# Out: 3D Mouse Up
-# Down: 3D Mouse Out
-# Up: 3D Mouse In
-# Tilt Backward: 3D Mouse Tilt Backward
-# Tilt Forward: 3D Mouse Tilt Forward
-# Roll Left: 3D Mouse Roll Left
-# Roll Right: 3D Mouse Roll Right
-# Spin Clockwise: 3D Mouse Spin Clockwise
-# Spin Counter-clockwise: 3D Mouse Spin Counter-clockwise
