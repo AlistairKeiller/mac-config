@@ -18,7 +18,9 @@ rustup-init -y --profile complete
 brew tap oven-sh/bun
 brew install bun
 
-brew install python ipython
+brew install python
+ln -s /opt/homebrew/bin/python3 /opt/homebrew/bin/python
+ln -s /opt/homebrew/bin/pip3 /opt/homebrew/bin/pip
 
 brew install --cask julia
 
