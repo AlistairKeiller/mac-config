@@ -52,6 +52,6 @@ cp -r ./config/* ~/.config/
 defaults write -g NSWindowShouldDragOnGesture YES
 
 # Install 3DxWare and Fusion
-# Theme zed (extension), chrome (web store), Jupyter Lab (extension)
+# Theme zed (extension), chrome (web store)
 # Disable mouse acceleration, natural scrolling, and shake mouse pointer to locate
 # Automatically hide the menu bar and dock
