@@ -31,7 +31,7 @@ brew install --cask --no-quarantine alacritty
 brew install --cask zed github
 
 # Install open-source programs
-brew install --cask visual-studio-code bambu-studio nikitabobko/tap/aerospace inkscape orbstack
+brew install --cask visual-studio-code bambu-studio nikitabobko/tap/aerospace inkscape orbstack kdenlive
 
 # Install closed-source programs
 brew install --cask google-chrome discord spotify
